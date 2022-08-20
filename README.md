@@ -71,6 +71,8 @@ Verify the block contents and hashes in the Streamlit drop-down menu. Take a scr
 
 ![PyChain](Lesson_18_Pychain.png)
 
+![Full_Ledger](PyChain_full_ledger.png)
+
 Test the blockchain validation process by using the web interface. Take a screenshot of the Streamlit application page, which should indicate the validity of the blockchain. Include the screenshot in the README.md file for your Challenge repository.
 
 
