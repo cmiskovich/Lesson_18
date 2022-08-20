@@ -69,7 +69,7 @@ Enter values for the sender, receiver, and amount, and then click the Add Block 
 Verify the block contents and hashes in the Streamlit drop-down menu. Take a screenshot of the Streamlit application page, which should detail a blockchain that consists of multiple blocks. Include the screenshot in the README.md file for your Challenge repository.
 
 
-
+![PyChain](Lesson_18_Pychain.png)
 
 Test the blockchain validation process by using the web interface. Take a screenshot of the Streamlit application page, which should indicate the validity of the blockchain. Include the screenshot in the README.md file for your Challenge repository.
 
