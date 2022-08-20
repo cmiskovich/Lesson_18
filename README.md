@@ -68,6 +68,9 @@ Enter values for the sender, receiver, and amount, and then click the Add Block 
 
 Verify the block contents and hashes in the Streamlit drop-down menu. Take a screenshot of the Streamlit application page, which should detail a blockchain that consists of multiple blocks. Include the screenshot in the README.md file for your Challenge repository.
 
+
+
+
 Test the blockchain validation process by using the web interface. Take a screenshot of the Streamlit application page, which should indicate the validity of the blockchain. Include the screenshot in the README.md file for your Challenge repository.
 
 
@@ -82,39 +85,50 @@ Test the blockchain validation process by using the web interface. Take a screen
 
 ## Information about datasets
 
-Functions:
+Create a data class for sender, receiver, and amount:
 
-parse_int, Securely converts a non-integer value to integer.
+@dataclass
+Class: Record
 
-build_validation_result, Define a result message structured as Lex response.
+Block data class to store and record data:
 
-get_investment_recommendation, Returns an initial investment recommendation based on the risk profile.
+@dataclass
+class Block:
 
-validate_data,  Validates the data provided by the user.
+Function for hash block:
 
-elicit_slot, Defines an elicit slot type response.
+def hash_block(self)
 
-delegate, Defines a delegate slot type response.
+PyChain data class:
 
-close, Defines a close slot type response.
-
-recommend_portfolio,  Performs dialog management and fulfillment for recommending a portfolio.
-
-dispatch, Called when the user specifies an intent for this bot.
-
-lambda_handler, Route the incoming request based on intent.  The JSON body of the request is provided in the event slot.
+@dataclass
+class PyChain:
 
 
+Function to add block to the block chain:
+
+def add_block(self, candidate_block):
 
 
+Function for checking validity of block;
+
+def is_valid(self):
 
 ---
 
 ## Libraries used in analysis
 
+Streamlit
+
+dataclass
+
+typing
+
 datetime
 
-dateutil.relativedelta
+pandas
+
+hashlib
 
 ---
 
